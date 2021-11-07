@@ -1,0 +1,7 @@
+from django.contrib import admin
+
+# Register your models here.
+from .models import Todolist
+
+admin.site.register(Todolist)  # ให้ models อยุ่ใน admin
+
